@@ -1,0 +1,363 @@
+/** HEADER **/
+#header-nav {
+  background-color: black;
+  border-radius: 0;
+  border: 0;	
+  }
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Site name */
+  font-family: 'Lora', serif;
+  color: white;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.5;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+#nav-list a:hover {
+  background-color: #5E3722;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#navbar-active a { 
+  background: #5E3722!important }
+
+  /* End Header */
+
+/* HOME PAGE */
+#home-page {
+  margin-top: 100px;
+}
+
+#texts-tile, #excercises-tile, #links-tile, #alphabet-tile, #audio-tile, #videos-tile, #guides-tile, #grammar-tile, #vocabulary-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+
+
+#alphabet-tile {
+  background: url('../images/alphabet.png') no-repeat;
+  background-position: center;
+}
+
+#alphabet-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#audio-tile {
+  background: url('../images/audio.png') no-repeat;
+  background-position: center;
+}
+
+#audio-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#guides-tile {
+  background: url('../images/guides.png') no-repeat;
+  background-position: center;
+}
+
+#guides-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#grammar-tile {
+  background: url('../images/grammar.png') no-repeat;
+  background-position: center;
+}
+
+#grammar-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#excercises-tile {
+  background: url('../images/excercises2.png') no-repeat;
+  background-position: center;
+}
+
+#excercises-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#links-tile {
+  background: url('../images/links.png') no-repeat;
+  background-position: center;
+}
+
+#links-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#texts-tile {
+  background: url('../images/texts.png') no-repeat;
+  background-position: center;
+}
+
+#texts-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#videos-tile {  
+  background: url('../images/videos.png') no-repeat;
+  background-position: center;}
+
+#videos-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#vocabulary-tile {  
+  background: url('../images/vocabulary.png') no-repeat;
+  background-position: center;
+}
+
+#vocabulary-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+
+#alphabet-tile span, #audio-tile span, #guides-tile span, #grammar-tile span, #texts-tile span, #excercises-tile span, #links-tile  span,  #videos-tile span, #vocabulary-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+/* END HOME PAGE */
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 10px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+/* END FOOTER */
+
+
+/*TEXT-1*/
+#main-content {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: black;
+}
+
+#texts-title-info {
+  text-decoration: none;
+  list-style: none;
+  text-align: left;
+}
+
+/*TEXT-1*/
+
+
+/*GRAMMAR*/
+#grammar-main-table {
+  border: 1px solid black;
+}
+
+.tab-content{
+  border: 2px solid black;
+}
+/*GRAMMAR*/
+
+/********** Large devices only **********/
+@media(min-width: 1200px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+    }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 2vw;/* 1vw = 1% of viewport width */
+    }
+  /* End Header */
+
+
+  /* HOME PAGE */
+
+  /* END HOME PAGE */
+
+
+  /*TEXTS*/
+
+  /*END TEXTS*/
+
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+    }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 4vw;/* 1vw = 1% of viewport width */
+    }
+
+  }
+
+  /* End Header */
+
+  /* HOME PAGE */
+
+  /* END HOME PAGE */
+
+
+/* TEXTS */
+
+/* END TEXTS */
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Header */
+   .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+    }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 2vw;/* 1vw = 1% of viewport width */
+    }
+  /* ENDHeader */
+
+
+   /* Home Page */
+
+    #audio-tile, #texts-tile, #excercises-tile, #links-tile, #alphabet-tile, #videos-tile, #guides-tile, #grammar-tile, #vocabulary-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+  /* End Home Page */
+  
+
+  /*TEXTS*/
+
+  /*END TEXTS*/
+  }
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 7vw;/* 1vw = 1% of viewport width */
+    }
+
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  /* End Header */
+
+  /* Home Page */
+
+   #audio-tile, #texts-tile, #excercises-tile, #links-tile, #alphabet-tile, #videos-tile, #guides-tile, #grammar-tile, #vocabulary-tile  {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+  /* END HOME PAGE */
+
+/*TEXTS*/
+
+/*END TEXTS*/
+
+
+    /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+
+
+}
