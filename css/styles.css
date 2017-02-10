@@ -5,20 +5,27 @@
   border: 0;	
   }
 
+#logo-img {
+  background: url('../images/logo-small.png') no-repeat;
+  position: relative;
+  background-position: center;
+  width: 80px;
+  height: 60px;
+  margin: 10px 15px 10px 0;
+}
+
 .navbar-brand {
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
 .navbar-brand h1 { /* Site name */
   font-family: 'Lora', serif;
   color: white;
   font-size: 2.5em;
-  text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
+  margin-top: 3px;
   margin-bottom: 0;
-  line-height: 0.5;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -26,6 +33,7 @@
 
 #nav-list {
   margin-top: 10px;
+  margin-right: 0px;
 }
 #nav-list a {
   color: white;
@@ -37,6 +45,7 @@
 #nav-list a span {
   font-size: 1.8em;
 }
+
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
@@ -56,11 +65,43 @@
 #navbar-active a { 
   background: #5E3722!important }
 
+.dropdown-menu {
+  color: white;
+  background: black;
+}
+
+ 
   /* End Header */
+
 
 /* HOME PAGE */
 #home-page {
   margin-top: 100px;
+}
+
+#business-russian {
+  width: 100%;
+  height: 250px;
+  background: url('../images/business-russian.png') no-repeat;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+#business-russian span {
+  position: absolute;
+  bottom: 60px;
+  right: 16px;
+  left: 280px;
+  text-align: left;
+  overflow: none;
+  font-size: 1em;
+  color: white;
+}
+
+#business-russian:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
 }
 
 #texts-tile, #excercises-tile, #links-tile, #alphabet-tile, #audio-tile, #videos-tile, #guides-tile, #grammar-tile, #vocabulary-tile {
@@ -71,8 +112,6 @@
   border: 2px solid #3F0C1F;
   overflow: hidden;
 }
-
-
 
 #alphabet-tile {
   background: url('../images/alphabet.png') no-repeat;
@@ -165,6 +204,13 @@
   opacity: .8;
 }
 
+
+/*INFORMATION*/
+
+
+/*END INFORMATION*/
+
+
 /* END HOME PAGE */
 
 /* FOOTER */
@@ -200,8 +246,7 @@
 
 /*TEXT-1*/
 #main-content {
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 115px;
   color: black;
 }
 
@@ -232,7 +277,7 @@
     height: 80px;
     }
   .navbar-brand h1 { /* Restaurant name */
-    padding-top: 10px;
+    padding-top: 5px;
     font-size: 2vw;/* 1vw = 1% of viewport width */
     }
   /* End Header */
@@ -268,6 +313,8 @@
 
   /* HOME PAGE */
 
+
+  }
   /* END HOME PAGE */
 
 
@@ -285,11 +332,17 @@
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
     font-size: 2vw;/* 1vw = 1% of viewport width */
-    }
+    } 
   /* ENDHeader */
 
 
    /* Home Page */
+#business-russian {
+    width: 30px;
+    margin: 0 auto 15px;
+    position: relative;
+    background-position: center;
+}
 
     #audio-tile, #texts-tile, #excercises-tile, #links-tile, #alphabet-tile, #videos-tile, #guides-tile, #grammar-tile, #vocabulary-tile {
     width: 360px;
@@ -331,12 +384,17 @@
     margin-right: 5px;
   }
 
+  #header-dropdowns li a {
+    font-size: 12px; 
+  }
   /* End Header */
 
   /* Home Page */
 
    #audio-tile, #texts-tile, #excercises-tile, #links-tile, #alphabet-tile, #videos-tile, #guides-tile, #grammar-tile, #vocabulary-tile  {
-    width: 360px;
+    height: 210px;
+    width: 290px;
+    background-position: center;
     margin: 0 auto 15px;
   }
   /* END HOME PAGE */
