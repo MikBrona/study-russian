@@ -1,4 +1,8 @@
 /** HEADER **/
+h1 {
+  text-align: center;
+}
+
 #header-nav {
   background-color: black;
   border-radius: 0;
@@ -6,12 +10,16 @@
   }
 
 #logo-img {
-  background: url('../images/logo-small.png') no-repeat;
+  background: url('../images/logo1.png') no-repeat;
   position: relative;
   background-position: center;
-  width: 80px;
-  height: 60px;
-  margin: 10px 15px 10px 0;
+  width: 250px;
+  height: 50px;
+  margin: 20px 15px 10px 0;
+}
+
+.top {
+
 }
 
 .navbar-brand {
@@ -43,7 +51,7 @@
   background-color: #5E3722;
 }
 #nav-list a span {
-  font-size: 1.8em;
+  font-size: 2.8em;
 }
 
 
@@ -70,6 +78,8 @@
   background: black;
 }
 
+
+
  
   /* End Header */
 
@@ -79,29 +89,22 @@
   margin-top: 100px;
 }
 
-#business-russian {
-  width: 100%;
-  height: 250px;
-  background: url('../images/business-russian.png') no-repeat;
-  background-position: center;
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 25px;
+.container .jumbotron {
+  box-shadow: 0 0 25px #3F0C1F;
+  border: 2px solid #3F0C1F;
 }
-
-#business-russian span {
+.jumbotron span {
   position: absolute;
-  bottom: 60px;
-  right: 16px;
-  left: 280px;
-  text-align: left;
-  overflow: none;
+  right: 20px;
+  padding: 5px 5px 5px 5px;
+  left: 700px;
+  top: 378px;
+  width: 35%;
   font-size: 1em;
-  color: white;
-}
-
-#business-russian:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
+  background-color: white;
+  border: solid 1px grey;
+  color: black;
+  opacity: .8;
 }
 
 #texts-tile, #excercises-tile, #links-tile, #alphabet-tile, #audio-tile, #videos-tile, #guides-tile, #grammar-tile, #vocabulary-tile {
@@ -114,7 +117,7 @@
 }
 
 #alphabet-tile {
-  background: url('../images/alphabet.png') no-repeat;
+  background: url('../images/alphabettest.png') no-repeat;
   background-position: center;
 }
 
@@ -122,7 +125,7 @@
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #audio-tile {
-  background: url('../images/audio.png') no-repeat;
+  background: url('../images/audiotest.png') no-repeat;
   background-position: center;
 }
 
@@ -130,7 +133,7 @@
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #guides-tile {
-  background: url('../images/guides.png') no-repeat;
+  background: url('../images/guidestest.png') no-repeat;
   background-position: center;
 }
 
@@ -139,7 +142,7 @@
 }
 
 #grammar-tile {
-  background: url('../images/grammar.png') no-repeat;
+  background: url('../images/grammartest.png') no-repeat;
   background-position: center;
 }
 
@@ -147,7 +150,7 @@
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #excercises-tile {
-  background: url('../images/excercises2.png') no-repeat;
+  background: url('../images/excercisestest.png') no-repeat;
   background-position: center;
 }
 
@@ -156,7 +159,7 @@
 }
 
 #links-tile {
-  background: url('../images/links.png') no-repeat;
+  background: url('../images/linkstest.png') no-repeat;
   background-position: center;
 }
 
@@ -165,7 +168,7 @@
 }
 
 #texts-tile {
-  background: url('../images/texts.png') no-repeat;
+  background: url('../images/textstest.png') no-repeat;
   background-position: center;
 }
 
@@ -174,7 +177,7 @@
 }
 
 #videos-tile {  
-  background: url('../images/videos.png') no-repeat;
+  background: url('../images/videotest.png') no-repeat;
   background-position: center;}
 
 #videos-tile:hover {
@@ -182,7 +185,7 @@
 }
 
 #vocabulary-tile {  
-  background: url('../images/vocabulary.png') no-repeat;
+  background: url('../images/vocabularytest.png') no-repeat;
   background-position: center;
 }
 
@@ -205,11 +208,12 @@
 }
 
 
-/*INFORMATION*/
+/*LINKS*/
+.overskrift {
+margin-bottom: 50px;
+}
 
-
-/*END INFORMATION*/
-
+/*END LINKS*/
 
 /* END HOME PAGE */
 
@@ -284,7 +288,13 @@
 
 
   /* HOME PAGE */
-
+    .container .jumbotron {
+    position: relative;
+    background-position: center;
+    background: url('../images/wood.png') no-repeat;
+    height: 610px;
+    width: 1135px;
+  }
   /* END HOME PAGE */
 
 
@@ -313,8 +323,6 @@
 
   /* HOME PAGE */
 
-
-  }
   /* END HOME PAGE */
 
 
@@ -337,12 +345,13 @@
 
 
    /* Home Page */
-#business-russian {
-    width: 30px;
-    margin: 0 auto 15px;
+    .container .jumbotron {
     position: relative;
     background-position: center;
-}
+    background: url('../images/wood.png') no-repeat;
+    height: 210px;
+    width: 290px;
+  }
 
     #audio-tile, #texts-tile, #excercises-tile, #links-tile, #alphabet-tile, #videos-tile, #guides-tile, #grammar-tile, #vocabulary-tile {
     width: 360px;
@@ -387,9 +396,25 @@
   #header-dropdowns li a {
     font-size: 12px; 
   }
+
+  #logo-img {
+  position: relative;
+  background-position: center;
+  width: 250px;
+  height: 50px;
+  margin: 0px 15px 10px 20px;
+}
   /* End Header */
 
   /* Home Page */
+
+    .container .jumbotron {
+    position: relative;
+    background-position: center;
+    background: url('../images/wood.png') no-repeat;
+    height: 210px;
+    width: 290px;
+  }
 
    #audio-tile, #texts-tile, #excercises-tile, #links-tile, #alphabet-tile, #videos-tile, #guides-tile, #grammar-tile, #vocabulary-tile  {
     height: 210px;
